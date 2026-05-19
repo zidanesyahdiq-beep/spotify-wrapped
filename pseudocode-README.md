@@ -62,10 +62,10 @@ AE --> AF[Tampilkan Statistik]
 AF --> AG[Buat Grafik Batang]
 
 AG --> AH[Tampilkan Grafik]
-```
 
 AH --> AI[Tampilkan Wrapped Summary]
 
 AI --> AJ[Tampilkan Pesan Akhir]
 
 AJ --> AK([SELESAI])
+```
