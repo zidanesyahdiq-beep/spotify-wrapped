@@ -1,0 +1,80 @@
+Tampilkan judul "Spotify Wrapped"
+
+IF status login belum ada THEN
+buat status login = False
+END IF
+
+Tampilkan form login
+Input username
+Input password
+Input remember me
+
+IF tombol LOGIN ditekan THEN
+ubah status login = True
+END IF
+
+IF status login = True THEN
+
+Tampilkan pesan welcome
+
+Tampilkan pilihan genre favorit
+Input genre
+
+Tampilkan slider jam mendengarkan musik
+Input hours
+
+IF hours >= 7 THEN
+tampilkan "Music Addict"
+ELSE IF hours >= 4 THEN
+tampilkan "Casual Listener"
+ELSE
+tampilkan "Silent Listener"
+END IF
+
+Simpan data:
+favorite_artist
+total_songs
+listening_time
+is_music_lover
+
+Konversi plays_string menjadi integer
+
+Buat list songs
+Buat list artists
+Buat list plays
+
+Buat dictionary song_info
+
+Tampilkan song_info dalam format JSON
+
+Buat class Song
+memiliki title dan artist
+memiliki method show_song()
+
+Buat object song1
+Tampilkan hasil show_song()
+
+Tampilkan daftar top songs menggunakan looping
+
+Hitung:
+total_plays
+average_plays
+most_played
+
+Tampilkan hasil perhitungan
+
+Buat grafik batang horizontal
+Tampilkan chart
+
+Tampilkan wrapped summary:
+favorite artist
+favorite genre
+total songs
+listening time
+music lover
+
+Tampilkan pesan akhir
+
+END IF
+
+END
